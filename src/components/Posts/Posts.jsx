@@ -15,7 +15,7 @@ const Posts = ({ setCurrentId }) => {
 
     return (
         // !posts.length this means if not or if ders no post
-        !posts.length ? <CircularProgress /> : (
+        !posts.length ? <CircularProgress className={classes.circular} /> : (
             <Grid className={classes.container} container alignItems="stretch" spacing={3}>
               {posts.map((post) => (
                 <Grid key={post.id} item xs={12} sm={6}> 

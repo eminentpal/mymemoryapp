@@ -11,4 +11,9 @@ export default makeStyles((theme) => ({
   actionDiv: {
     textAlign: 'center',
   },
+  circular:{
+    position: "relative",
+    top: "100px",
+    left:"50%"
+  }
 }));
