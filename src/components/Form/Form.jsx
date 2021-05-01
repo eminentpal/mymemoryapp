@@ -22,6 +22,8 @@ const Form = ({currentId, setCurrentId}) => {
 const dispatch = useDispatch()
 const post  = useSelector(state =>  currentId ? state.posts.find((post) => post._id === currentId) : null)
 
+console.log(currentId)
+
 useEffect(() => {
     if (post) setPostData(post)
 }, [post])

@@ -11,3 +11,4 @@ export const likePost = (id) => axios.patch(`${url}/${id}/likePost`);
 //Note
 // for createPost you can use newPost or any word
 //take note of Get Post and Patch which are all after axios.
+
