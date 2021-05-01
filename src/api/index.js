@@ -1,7 +1,7 @@
 import axios from "axios"
 
 
-const url = 'https://mymemoryapi.herokuapp.com/posts';
+const url = 'https://mymemoriesapi.herokuapp.com/posts';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost)
